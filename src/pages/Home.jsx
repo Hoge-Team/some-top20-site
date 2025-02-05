@@ -10,25 +10,31 @@ const Home = () => {
     const [paid, setPaid] = useState(false);
   return (
     <div className='container'>
-      <p>
-      <div  id='paypal_button'>
+      <h3>Project taken over by trolls, LP drained, LARP web3 dev stole over 100k</h3>
+      <p id='intro'>
+        What's new with HOGE? <br />
+        Well not much, anyone that has an idea that doesn't conform to the marketing troll moonboys then execpt a ban from socials.
+        If you were hoping for a moon update, going to have to wait a few years, the top20 has more than enough to keep draining new holders. 
+        Sustainable 10x is imposible at this time.
+      </p>
+      <div  id='paypal_button' hidden={paid}>
         Support A Project <br/>
         <a href='https://www.paypal.com/ncp/payment/ZLRCM2SAD2XFJ' target='_blank'><img src='./paypal_button.png' alt='paypal'></img></a>
       </div>
-      <div id="getBent" hidden='true'>
+      <div id="getBent" hidden={paid}>
         <a href="https://www.paypal.com/invoice/p/#9KCEVKRNJBPJGWM4">Exit invoice (Unpaid)</a><br/>
       </div>
       <div id='MM' hidden={paid}>
         <a href="https://www.paypal.com/invoice/p/#CGCHUBYDU24WW52M">Unpaid Past Due MM invoices</a>
       </div>      
-      </p>
-      <div id="someId" hidden='true'>
+      <br />
+      <div id="someId" hidden={paid}>
         Some site, better than no site.
         <p> Inquires &nbsp;&nbsp;
           <a href="mailto:email@hoge.team">email@hoge.team</a>  
         </p>
       </div> 
-      <div id='logos' hidden='true'>
+      <div id='logos' hidden={paid}>
         Build references to build it out more.<br/>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -51,7 +57,7 @@ const Home = () => {
       <p />
       Swap fiat and BTC for HOGE!
       <div>
-        <Link to='/ChangeNow'><img src='./changenow.png' alt='changenow' /></Link>
+        Check out the <Link to='/ChangeNow'>ChangeNow widget</Link>
       </div>
 
     </div>
