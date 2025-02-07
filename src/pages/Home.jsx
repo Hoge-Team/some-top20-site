@@ -10,14 +10,16 @@ const Home = () => {
     const [paid, setPaid] = useState(false);
   return (
     <div className='container'>
-      <h3>Project taken over by trolls, LP drained, LARP web3 dev stole over 100k</h3>
+      <h3>Project wallet and LP drained, LARP web3 dev stole over 100k so far</h3>
       <p id='intro'>
         What's new with HOGE? <br />
         Well not much, anyone that has an idea that doesn't conform to the marketing troll moonboys then execpt a ban from socials.
-        If you were hoping for a moon update, going to have to wait a few years, the top20 has more than enough to keep draining new holders. 
-        Sustainable 10x is imposible at this time. Oh also, 
+        If you were hoping for a moon update, going to have to wait a years, if ever.
+        The top20 has more than enough to keep draining new holders. 
+        Sustainable 10x is imposible at this time. 
+        Oh also, &nbsp; 
         <a href='https://etherscan.io/address/0x1920bd8C66ef7F5AC44846413B74CB05f5182B14' >HOGEDAO.ETH</a>
-         wallet has lost the 200k in stables and most of the eth.
+        &nbsp; wallet has lost the 200k in stables and most of the eth.
       </p>
       <div  id='paypal_button' hidden={paid}>
         Support A Project <br/>
