@@ -13,7 +13,7 @@ const Home = () => {
       <h3>Project wallet and LP drained, LARP web3 dev stole over 100k so far</h3>
       <p id='intro'>
         What's new with HOGE? <br />
-        Well not much, anyone that has an idea that doesn't conform to the marketing troll moonboys then execpt a ban from socials.
+        Well not much, anyone that has an idea that doesn't conform to the marketing troll moonboys; expect a ban from socials.
         If you were hoping for a moon update, going to have to wait a years, if ever.
         The top20 has more than enough to keep draining new holders. 
         Sustainable 10x is imposible at this time. 
