@@ -33,13 +33,13 @@ const Home = () => {
       </div>      
       <br />
       <div id="someId" hidden={paid}>
-        Some site, better than no site.
-        <p> Inquires &nbsp;&nbsp;
+        <h3> Class Action Inquires &nbsp;&nbsp;
           <a href="mailto:email@hoge.team">email@hoge.team</a>  
-        </p>
+        </h3>
       </div> 
       <div id='logos' hidden={paid}>
-        Build references to build it out more.<br/>
+        Some site, better than no site.<br/>
+        Build references for 'anyone' to build more.<br/>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
